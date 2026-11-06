@@ -40,7 +40,8 @@ Folders that start with `_` (like `_originals/`) are skipped by GitHub Pages.
 - **Opening hours** appear in three places: the `SCHEDULE` object in `assets/js/main.js` (drives the
   live "Ανοιχτά / Κλειστά" badge), the hours tables in the HTML pages, and the footer.
 - **Phones:** 210 261 3180 · 693 401 8961 (search for `tel:` to change them).
-- **Logo:** the header uses a gold bull-horn mark drawn after the logo on the shop wall, plus
-  the name in type. To use the official logo file instead, add it as `assets/img/logo.svg`
-  (or a transparent `.png`) and swap the `<a class="brand">` contents in each page.
+- **Logo:** `assets/img/logo-light.png` (cream + gold, for the dark header/footer) and
+  `assets/img/logo-dark.png` (black + gold, for light backgrounds) were cut out of the uploaded
+  logo (`_originals/logo.png`). The source is small (~190px wide), so a vector/SVG or
+  high-resolution version would look sharper on retina screens; drop it in with the same names.
 - **Photos:** to replace one, export it as WebP (~900px wide) into `assets/img/` with the same name.
